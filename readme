@@ -1,0 +1,22 @@
+This is a Simple Movie information web application with Django: vidly
+
+Video Rental Application
+
+Create a Django Application from Template: 
+pipenv install django == 2.1
+pipenv shell
+django-admin startproject vidly .
+python3 manage.py runserver (8080)
+
+Create a Movie template project: 
+python3 manage.py startapp movies
+
+After changes in any settings:
+python3 manage.py makemigrations
+
+Adding any user to the user-group:
+python3 manage.py createsuperuser
+
+Django Api:
+pipenv install django-tastypie
+python3 manage.py startapp api
